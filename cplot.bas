@@ -4,8 +4,7 @@
 30 R=15
 90 GOSUB 5000
 95 PRINT TAB(30)"Plotting a circle";
-96 PRINT TAB(5) "It looks oval because each screen character is taller than it i
-s wide!";
+96 PRINT TAB(5) "It looks oval because each screen character is taller than it is wide!";
 100 FOR A= 0 TO 6.2 STEP .2 :rem formula is in radians not degrees!
 200 X1= INT(R*COS(A))
 300 Y1= INT(R*SIN(A))
